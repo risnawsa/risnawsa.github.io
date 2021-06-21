@@ -1,0 +1,54 @@
+{
+  "_from": "slick-slider@1.8.1",
+  "_id": "slick-slider@1.8.1",
+  "_inBundle": false,
+  "_integrity": "sha512-aM9UJsrH1D1AHF4/vsdqks3f6qCnJXkoUwxAsQGrivjO55SwO6/QheUOTNIVcbtendbr/MxJVBsbOzKDm28MNw==",
+  "_location": "/slick-slider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "slick-slider@1.8.1",
+    "name": "slick-slider",
+    "escapedName": "slick-slider",
+    "rawSpec": "1.8.1",
+    "saveSpec": null,
+    "fetchSpec": "1.8.1"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/slick-slider/-/slick-slider-1.8.1.tgz",
+  "_shasum": "8f77e4abed00861c7f98418c936d97cf374289e7",
+  "_spec": "slick-slider@1.8.1",
+  "_where": "C:\\xampp\\htdocs\\3movies-fe",
+  "author": {
+    "name": "solodev"
+  },
+  "bugs": {
+    "url": "https://github.com/solodev/slick-slider/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/solodev/slick-slider#readme",
+  "keywords": [
+    "carousel",
+    "slick",
+    "responsive",
+    "js",
+    "slider"
+  ],
+  "license": "ISC",
+  "main": "slick/slick.js",
+  "name": "slick-slider",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solodev/slick-slider.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.1"
+}

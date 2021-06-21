@@ -1,0 +1,16 @@
+{
+    "/dist/js/be/main.js": "/dist/js/be/main.js",
+    "/dist/js/fe/bootstrap.js": "/dist/js/fe/bootstrap.js",
+    "/dist/js/fe/main.js": "/dist/js/fe/main.js",
+    "/dist/js/vendor/leaflet.js": "/dist/js/vendor/leaflet.js",
+    "/dist/js/vendor/jquery-migrate.min.js": "/dist/js/vendor/jquery-migrate.min.js",
+    "/dist/css/vendor/bootstrap.css": "/dist/css/vendor/bootstrap.css",
+    "/dist/css/vendor/sweetalert2.css": "/dist/css/vendor/sweetalert2.css",
+    "/dist/css/vendor/iconscout_unicons.css": "/dist/css/vendor/iconscout_unicons.css",
+    "/dist/css/vendor/animate.css": "/dist/css/vendor/animate.css",
+    "/dist/css/fe/main.css": "/dist/css/fe/main.css",
+    "/dist/css/page/template.css": "/dist/css/page/template.css",
+    "/dist/css/page/auth.css": "/dist/css/page/auth.css",
+    "/dist/css/page/main.css": "/dist/css/page/main.css",
+    "/dist/css/vendor/slick.css": "/dist/css/vendor/slick.css"
+}
