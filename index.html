@@ -65,8 +65,8 @@
                             </a>
                         </div>
                         <div class="button-scroll">
-                            <button class="btn-risna --blue-btn text-uppercase f-rubik_reg">view details</button><br>
-                            <i class="uil uil-angle-right-b"></i>
+                            <button id="content-scrll" class="btn-risna --blue-btn text-uppercase f-rubik_reg">view details</button><br>
+                            <i id="icn-content-scrll" class="uil uil-angle-right-b"></i>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
         <!-- Menu content -->
         <!-- ============================================================== -->
         <div id="content-fe-risna">
-            <section class="top-content-rs">
+            <section class="top-content-rs" name="seccontent-scrll">
                 <div class="container">
                     <div class="grid_layouts gr-top-content">
                         <div>
@@ -98,7 +98,7 @@
                 </div>
             </section>
         
-            <section class="middle-content-rs">
+            <section class="middle-content-rs" name="second-content-scrll">
                 <div class="container">
                     <div class="grid_layouts gr-middle-content">
                         <div>
@@ -227,6 +227,20 @@
         <script type="text/javascript" src="./src/template-source/vendor/jquery.validate.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                function scrollToAnchor(aid){
+                    var aTag = $("section[name='"+ aid +"']");
+                    $('html,body').animate(
+                        { scrollTop: aTag.offset().top-80 }
+                    ,'slow');
+                }
+
+                $('#icn-content-scrll').click(function() {
+                    scrollToAnchor('seccontent-scrll');
+                });
+                $("#content-scrll").click(function() {
+                    scrollToAnchor('second-content-scrll');
+                });
+
                 // LAZY LOAD JANGAN DIHAPUS ATAU DIPINDAHKAN
                 !function(window){
                     var $q = function(q, res){
